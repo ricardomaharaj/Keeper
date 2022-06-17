@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-zinc-100 text-black dark:bg-zinc-900 dark:text-white
+}
+
+.row {
+    @apply flex flex-row
+}
+
+.col {
+    @apply flex flex-col
+}
+
+.grid123 {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3
+}
+
+.theme-color {
+    @apply bg-zinc-200 dark:bg-zinc-800
+}
