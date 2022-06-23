@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply bg-zinc-100 text-black dark:bg-zinc-900 dark:text-white
-}
-
 .row {
     @apply flex flex-row
 }
@@ -14,10 +10,38 @@ body {
     @apply flex flex-col
 }
 
-.grid123 {
-    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3
+body {
+    @apply bg-zinc-200 text-black dark:bg-zinc-900 dark:text-white
 }
 
-.theme-color {
-    @apply bg-zinc-200 dark:bg-zinc-800
+.bg1 {
+    @apply bg-zinc-300 dark:bg-zinc-800
+}
+
+.red {
+    @apply bg-red-400 dark:bg-red-900
+}
+
+.blu {
+    @apply bg-blue-400 dark:bg-blue-900
+}
+
+.grn {
+    @apply bg-green-400 dark:bg-green-900
+}
+
+.ylw {
+    @apply bg-yellow-400 dark:bg-yellow-900
+}
+
+.bubble {
+    @apply px-4 py-2 rounded-xl
+}
+
+.grid123 {
+    @apply grid gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-3
+}
+
+.subtext {
+    @apply text-zinc-500 dark:text-zinc-500 text-sm
 }

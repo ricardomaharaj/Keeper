@@ -2,8 +2,7 @@
 module.exports = {
     darkMode: 'class',
     content: [
-        "./index.html",
-        "./src/**/*.{vue,js,ts,jsx,tsx}",
+        "./src/**/*.{js,jsx,ts,tsx}"
     ],
     theme: {
         extend: {},
