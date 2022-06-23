@@ -53,6 +53,9 @@ function Home() {
     }, [notes])
 
     return <>
+        <div className='row'>
+            <input placeholder='Search' className='outline-none bg1 bubble w-full' type='text' onChange={e => setFilter(e.currentTarget.value)} />
+        </div>
         <div className='row space-x-2'>
             <button onClick={async () => {
                 NoteManager.createNote().then(tmpid => {
@@ -67,10 +70,9 @@ function Home() {
                 className='bg1 bubble'
                 onChange={e => setSort(e.target.value)}
             >
-                <option value='new'> Newest </option>
-                <option value='old'> Oldest </option>
+                <option value='new'>Newest</option>
+                <option value='old'>Oldest</option>
             </select>
-            <input placeholder='Search' className='outline-none bg1 bubble' type='text' onChange={e => setFilter(e.currentTarget.value)} />
         </div>
         <div className='grid123'>
             {notes
