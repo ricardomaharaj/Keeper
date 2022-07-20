@@ -3,12 +3,12 @@
     "name": "Keeper",
     "icons": [
         {
-            "src": "favicon16.png",
+            "src": "logo16.png",
             "sizes": "16x16",
             "type": "image/png"
         },
         {
-            "src": "favicon32.png",
+            "src": "logo32.png",
             "sizes": "32x32",
             "type": "image/png"
         },
